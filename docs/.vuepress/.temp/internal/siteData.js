@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"云川\",\"description\":\"人生笔记本\",\"head\":[[\"link\",{\"rel\":\"icon\",\"type\":\"image/png\",\"href\":\"https://blog.wyc.cc/upload/%E7%8E%89%E9%BE%99%E9%9B%AA%E5%B1%B1.svg\"}]],\"locales\":{}}")

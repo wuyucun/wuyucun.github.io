@@ -1,0 +1,3 @@
+import comp from "D:/vue/yunriver/docs/.vuepress/.temp/pages/index.html.vue"
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"pageLayout\":\"home\",\"externalLinkIcon\":false,\"config\":[{\"type\":\"hero\",\"full\":true,\"forceDark\":true,\"effect\":\"pixel-blast\",\"hero\":{\"name\":\"云川\",\"tagline\":\"YunRiver\",\"text\":\"人生笔记本\",\"actions\":[{\"theme\":\"brand\",\"text\":\"生活记\",\"link\":\"/lifedoc/\"},{\"theme\":\"alt\",\"text\":\"投资记\",\"link\":\"/invest/\"}]}}]},\"readingTime\":{\"minutes\":0.14,\"words\":43},\"git\":{},\"filePathRelative\":\"README.md\",\"headers\":[]}")
+export { comp, data }
