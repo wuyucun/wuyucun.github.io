@@ -7,9 +7,16 @@ on:
   # 手动触发部署
   workflow_dispatch:
 
+
+     # 核心：添加这部分权限配置
+permissions:
+     contents: write
+
 jobs:
   docs:
     runs-on: ubuntu-latest
+
+ 
 
     steps:
       - uses: actions/checkout@v4
