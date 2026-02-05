@@ -18,8 +18,13 @@ config:
           link: /lifedoc/
         -
     
-          theme: alt
+          theme: brand
           text: 投资记
           link: /invest/
+        -
+    
+          theme: alt
+          text: 博客↗
+          link: /blog/
 
 ---

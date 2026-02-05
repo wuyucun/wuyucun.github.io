@@ -29,7 +29,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+     hostname: 'https://yunriver.com',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -38,8 +38,8 @@ export default defineUserConfig({
 
     /* 页内信息 */
     // editLink: true,
-    // lastUpdated: true,
-    // contributors: true,
+     lastUpdated: true,
+     contributors: false,
     // changelog: false,
 
     /**
@@ -96,7 +96,7 @@ export default defineUserConfig({
     //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
     //   caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
     //   plot: true,         // 启用隐秘文本语法 !!xxxx!!
-    //   bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
+       bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
     //   youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
     //   artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
     //   audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
@@ -120,12 +120,12 @@ export default defineUserConfig({
     //   },
     //   chartjs: true,      // 启用 chart.js
     //   echarts: true,      // 启用 ECharts
-    //   mermaid: true,      // 启用 mermaid
+       mermaid: true,      // 启用 mermaid
     //   flowchart: true,    // 启用 flowchart
     //   image: {
     //     figure: true,     // 启用 figure
     //     lazyload: true,   // 启用图片懒加载
-    //     mark: true,       // 启用图片标记
+        mark: true,       // 启用图片标记
     //     size: true,       // 启用图片大小
     //   },
     //   include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容

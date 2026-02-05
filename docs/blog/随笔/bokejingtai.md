@@ -1,5 +1,5 @@
 ---
-title: Markdown
+title: 搭建个人网站的终点是静态
 tags:
   - 建站笔记
 createTime: 2026/02/05 10:07:25
@@ -100,5 +100,6 @@ permalink: /blog/newbegin/
 
 在腾讯云绑定自定义域名即可，免费、自动配置SSL。即可访问。需要注意的是，只有备案域名才可以使用国内的加速，非备案域名只能使用全球加速（不含中国大陆）。
 
-![mermaid-diagram-2026-02-05-122224](./../../.vuepress/public/mermaid-diagram-2026-02-05-122224.svg)
+## 流程图
 
+![mermaid-diagram-2026-02-05-122223](./../../.vuepress/public/mermaid-diagram-2026-02-05-122223.png)
