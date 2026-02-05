@@ -7,5 +7,9 @@ permalink: /lifedoc/
 
 
 
-开始测试
+人生漫漫，思有所记，悟有所存。
+
+这里是「人生笔记」，记录我的思考，留存我的成长，与时光共勉，与自己同行。
+
+域名：[yunriver.com](http's://yunriver.com)
 
