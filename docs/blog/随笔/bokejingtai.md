@@ -1,10 +1,9 @@
 ---
 title: Markdown
 tags:
-- 建站笔记
-
-  createTime: 2026/02/05 10:07:25
-  permalink: /blog/newbegin/
+  - 建站笔记
+createTime: 2026/02/05 10:07:25
+permalink: /blog/newbegin/
 
 ---
 
