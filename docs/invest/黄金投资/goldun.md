@@ -5,4 +5,5 @@ permalink: /invest/2qpm6xqz/
 
 ---
 
-国际黄金以美元![]()
+
+
