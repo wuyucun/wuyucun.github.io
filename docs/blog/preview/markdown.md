@@ -58,11 +58,9 @@ H~2~O
 - 无序列表1
 - 无序列表2
 - 无序列表3
-
 1. 有序列表1
 2. 有序列表2
 3. 有序列表3
-
 - [ ] 任务列表1
 - [ ] 任务列表2
 - [x] 任务列表3
@@ -71,11 +69,11 @@ H~2~O
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| col 2 is      | centered      | $12   |
+| zebra stripes | are neat      | $1    |
 
 > 引用内容
->
+> 
 > 引用内容
 
 [链接](/)
@@ -100,6 +98,7 @@ H~2~O
 **demo wrapper：**
 
 ::: demo-wrapper title="示例" no-padding height="200px"
+
 <style scoped>
 .open-door {
   display: flex;
@@ -120,7 +119,7 @@ H~2~O
 
 **代码：**
 
-```js whitespace
+```js
 const a = 1
 const b = 2
 const c = a + b
