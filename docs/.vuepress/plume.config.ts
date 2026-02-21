@@ -49,7 +49,7 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
   profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
+    avatar: 'https://blog.wyc.cc/upload/%E7%8E%89%E9%BE%99%E9%9B%AA%E5%B1%B1.svg',
     name: '云川',
     description: '人生笔记本',
     // circle: true,
