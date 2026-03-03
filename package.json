@@ -30,6 +30,7 @@
     "node": "^20.19.0 || >=22.0.0"
   },
   "dependencies": {
+    "@iconify/json": "^2.2.445",
     "postprocessing": "^6.38.2",
     "three": "^0.182.0"
   }

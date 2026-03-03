@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@iconify/json':
+        specifier: ^2.2.445
+        version: 2.2.445
       postprocessing:
         specifier: ^6.38.2
         version: 6.38.2(three@0.182.0)
@@ -32,7 +35,7 @@ importers:
         version: 2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.0)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.27(typescript@5.9.3))
       vuepress-theme-plume:
         specifier: 1.0.0-rc.187
-        version: 1.0.0-rc.187(@types/markdown-it@14.1.2)(markdown-it@14.1.0)(postprocessing@6.38.2(three@0.182.0))(qrcode@1.5.4)(three@0.182.0)(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.0)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.27(typescript@5.9.3)))
+        version: 1.0.0-rc.187(@iconify/json@2.2.445)(@types/markdown-it@14.1.2)(markdown-it@14.1.0)(postprocessing@6.38.2(three@0.182.0))(qrcode@1.5.4)(three@0.182.0)(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.0)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.27(typescript@5.9.3)))
 
 packages:
 
@@ -404,6 +407,9 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@iconify/json@2.2.445':
+    resolution: {integrity: sha512-ky0OXntrvxkFZ276X527m83ppaCm+9Tx39QPrRZvwVja2KSxp1cGMwBw+dDkt+BOmcYvC1bjrhbkLnhHwuTtmQ==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -2653,6 +2659,11 @@ snapshots:
   '@esbuild/win32-x64@0.27.2':
     optional: true
 
+  '@iconify/json@2.2.445':
+    dependencies:
+      '@iconify/types': 2.0.0
+      pathe: 2.0.3
+
   '@iconify/types@2.0.0': {}
 
   '@iconify/utils@3.1.0':
@@ -4851,7 +4862,7 @@ snapshots:
       - '@types/markdown-it'
       - typescript
 
-  vuepress-theme-plume@1.0.0-rc.187(@types/markdown-it@14.1.2)(markdown-it@14.1.0)(postprocessing@6.38.2(three@0.182.0))(qrcode@1.5.4)(three@0.182.0)(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.0)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.27(typescript@5.9.3))):
+  vuepress-theme-plume@1.0.0-rc.187(@iconify/json@2.2.445)(@types/markdown-it@14.1.2)(markdown-it@14.1.0)(postprocessing@6.38.2(three@0.182.0))(qrcode@1.5.4)(three@0.182.0)(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.0)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.27(typescript@5.9.3))):
     dependencies:
       '@iconify/utils': 3.1.0
       '@iconify/vue': 5.0.0(vue@3.5.27(typescript@5.9.3))
@@ -4895,6 +4906,7 @@ snapshots:
       vuepress: 2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.0)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.27(typescript@5.9.3))
       vuepress-plugin-md-power: 1.0.0-rc.187(@types/markdown-it@14.1.2)(esbuild@0.27.2)(markdown-it@14.1.0)(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.0)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.27(typescript@5.9.3)))
     optionalDependencies:
+      '@iconify/json': 2.2.445
       postprocessing: 6.38.2(three@0.182.0)
       three: 0.182.0
     transitivePeerDependencies:
