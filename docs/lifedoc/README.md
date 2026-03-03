@@ -13,3 +13,8 @@ permalink: /lifedoc/
 
 域名：[yunriver.com](https://yunriver.com)
 
+关注公众号获取最新文章：
+
+
+
+![qrcode_for_gh_bafaa4635cd3_258](./../.vuepress/public/qrcode_for_gh_bafaa4635cd3_258.jpg)
