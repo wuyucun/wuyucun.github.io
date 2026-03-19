@@ -41,7 +41,6 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
     footer: {
-  
      copyright: 'YunRiver 云川',
      },
 
