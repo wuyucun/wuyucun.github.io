@@ -6,7 +6,7 @@ config:
     type: hero
     full: true
     forceDark: true
-    effect: tint-plate
+    effect: prism
     hero:
       name: 云川
       tagline: YunRiver
