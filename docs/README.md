@@ -6,7 +6,7 @@ config:
     type: hero
     full: true
     forceDark: true
-    effect: pixel-blast
+    effect: hyper-speed
     hero:
       name: 云川
       tagline: YunRiver
@@ -22,6 +22,11 @@ config:
           text: 投资记
           link: /invest/
         -
+
+          theme: brand
+          text: 健身记
+          link: /health/
+        -
     
           theme: alt
           text: 博客↗
@@ -31,4 +36,3 @@ config:
 
 
 
- 主页内容测试
