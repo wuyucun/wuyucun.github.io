@@ -54,7 +54,7 @@ const demoDoc = defineCollection({
   // 所以请确保  markdown 文件的 permalink 都以 `linkPrefix` 开头
   linkPrefix: '/lifedoc',
   // 文档标题，它将用于在页面的面包屑导航中显示
-  title: '人生笔记本',
+  title: '生活记',
   // 手动配置侧边栏结构
   //sidebar: ['', 'foo', 'bar'],
   // 根据文件结构自动生成侧边栏
@@ -71,7 +71,7 @@ const investDoc = defineCollection({
   // 所以请确保  markdown 文件的 permalink 都以 `linkPrefix` 开头
   linkPrefix: '/invest',
   // 文档标题，它将用于在页面的面包屑导航中显示
-  title: '投资人生',
+  title: '投资记',
   // 手动配置侧边栏结构
   //sidebar: ['', 'foo', 'bar'],
   // 根据文件结构自动生成侧边栏
@@ -88,7 +88,7 @@ const health = defineCollection({
   // 所以请确保  markdown 文件的 permalink 都以 `linkPrefix` 开头
   linkPrefix: '/health',
   // 文档标题，它将用于在页面的面包屑导航中显示
-  title: '投资人生',
+  title: '健身记',
   // 手动配置侧边栏结构
   //sidebar: ['', 'foo', 'bar'],
   // 根据文件结构自动生成侧边栏
